@@ -2,6 +2,7 @@
 
 int count_digits(int number) {
 
+	//active fool-proof
 	number = number < 0 ? -number : number;
 
 	//base case
